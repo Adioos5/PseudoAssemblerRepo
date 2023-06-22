@@ -1,20 +1,72 @@
-﻿  Main.c
-C:\Users\adria\Desktop\projekt\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\Main.c(76,46): warning C4042: 'strings': has bad storage class
-C:\Users\adria\Desktop\projekt\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\Main.c(91,7): warning C4101: 'errnum': unreferenced local variable
-C:\Users\adria\Desktop\projekt\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\Main.c(153,13): warning C4047: 'function': 'char *' differs in levels of indirection from 'char [80][1050]'
-C:\Users\adria\Desktop\projekt\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\Main.c(153,9): warning C4024: 'strcat': different types for formal and actual parameter 1
-C:\Users\adria\Desktop\projekt\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\Main.c(154,26): warning C4047: 'function': 'const char *' differs in levels of indirection from 'char [80][1050]'
-C:\Users\adria\Desktop\projekt\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\Main.c(154,22): warning C4024: 'strcpy': different types for formal and actual parameter 2
-C:\Users\adria\Desktop\projekt\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\Main.c(169,15): warning C4013: 'isspace' undefined; assuming extern returning int
-C:\Users\adria\Desktop\projekt\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\Main.c(230,16): warning C4018: '<': signed/unsigned mismatch
-C:\Users\adria\Desktop\projekt\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\Main.c(237,46): warning C4042: 'strings': has bad storage class
-C:\Users\adria\Desktop\projekt\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\Main.c(239,16): warning C4018: '<': signed/unsigned mismatch
-C:\Users\adria\Desktop\projekt\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\Main.c(251,15): warning C4018: '<': signed/unsigned mismatch
-C:\Users\adria\Desktop\projekt\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\Main.c(264,15): warning C4018: '<': signed/unsigned mismatch
-C:\Users\adria\Desktop\projekt\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\Main.c(744,20): warning C4047: '==': 'int' differs in levels of indirection from 'char [2]'
+﻿  ConsoleManager.c
+C:\Users\adria\Desktop\KONIEC_PROJEKTU\ADRIAN_CIEŚLA_PP1_PROJEKT\kopia_kopii\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\StringManagment.h(22,45): warning C4042: 'strings': has bad storage class
+C:\Users\adria\Desktop\KONIEC_PROJEKTU\ADRIAN_CIEŚLA_PP1_PROJEKT\kopia_kopii\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\ConsoleManager.c(16,41): warning C4244: 'function': conversion from 'DWORD' to 'WORD', possible loss of data
+C:\Users\adria\Desktop\KONIEC_PROJEKTU\ADRIAN_CIEŚLA_PP1_PROJEKT\kopia_kopii\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\ConsoleManager.c(34,26): warning C4020: 'printOrdersSection': too many actual parameters
+C:\Users\adria\Desktop\KONIEC_PROJEKTU\ADRIAN_CIEŚLA_PP1_PROJEKT\kopia_kopii\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\ConsoleManager.c(61,47): warning C4133: 'function': incompatible types - from 'char [2]' to 'Context *'
+C:\Users\adria\Desktop\KONIEC_PROJEKTU\ADRIAN_CIEŚLA_PP1_PROJEKT\kopia_kopii\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\ConsoleManager.c(61,49): warning C4020: 'split': too many actual parameters
+C:\Users\adria\Desktop\KONIEC_PROJEKTU\ADRIAN_CIEŚLA_PP1_PROJEKT\kopia_kopii\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\ConsoleManager.c(106,52): warning C4029: declared formal parameter list different from definition
+C:\Users\adria\Desktop\KONIEC_PROJEKTU\ADRIAN_CIEŚLA_PP1_PROJEKT\kopia_kopii\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\ConsoleManager.c(124,24): warning C4133: 'function': incompatible types - from 'char [2]' to 'Context *'
+C:\Users\adria\Desktop\KONIEC_PROJEKTU\ADRIAN_CIEŚLA_PP1_PROJEKT\kopia_kopii\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\ConsoleManager.c(124,26): warning C4020: 'split': too many actual parameters
+  FileHandler.c
+C:\Users\adria\Desktop\KONIEC_PROJEKTU\ADRIAN_CIEŚLA_PP1_PROJEKT\kopia_kopii\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\StringManagment.h(22,45): warning C4042: 'strings': has bad storage class
+C:\Users\adria\Desktop\KONIEC_PROJEKTU\ADRIAN_CIEŚLA_PP1_PROJEKT\kopia_kopii\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\FileHandler.c(13,41): warning C4133: 'function': incompatible types - from 'char [2]' to 'Context *'
+C:\Users\adria\Desktop\KONIEC_PROJEKTU\ADRIAN_CIEŚLA_PP1_PROJEKT\kopia_kopii\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\FileHandler.c(13,43): warning C4020: 'split': too many actual parameters
+C:\Users\adria\Desktop\KONIEC_PROJEKTU\ADRIAN_CIEŚLA_PP1_PROJEKT\kopia_kopii\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\FileHandler.c(109,7): warning C4101: 'errnum': unreferenced local variable
+  Context.c
+  Interpreter.c
+C:\Users\adria\Desktop\KONIEC_PROJEKTU\ADRIAN_CIEŚLA_PP1_PROJEKT\kopia_kopii\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\StringManagment.h(22,45): warning C4042: 'strings': has bad storage class
+C:\Users\adria\Desktop\KONIEC_PROJEKTU\ADRIAN_CIEŚLA_PP1_PROJEKT\kopia_kopii\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\Interpreter.c(55,39): warning C4020: 'decodeData': too many actual parameters
+C:\Users\adria\Desktop\KONIEC_PROJEKTU\ADRIAN_CIEŚLA_PP1_PROJEKT\kopia_kopii\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\Interpreter.c(59,45): warning C4020: 'decodeOrder': too many actual parameters
+C:\Users\adria\Desktop\KONIEC_PROJEKTU\ADRIAN_CIEŚLA_PP1_PROJEKT\kopia_kopii\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\Interpreter.c(119,46): warning C4029: declared formal parameter list different from definition
+C:\Users\adria\Desktop\KONIEC_PROJEKTU\ADRIAN_CIEŚLA_PP1_PROJEKT\kopia_kopii\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\Interpreter.c(126,29): warning C4133: 'function': incompatible types - from 'char [1]' to 'Context *'
+C:\Users\adria\Desktop\KONIEC_PROJEKTU\ADRIAN_CIEŚLA_PP1_PROJEKT\kopia_kopii\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\Interpreter.c(126,31): warning C4020: 'split': too many actual parameters
+C:\Users\adria\Desktop\KONIEC_PROJEKTU\ADRIAN_CIEŚLA_PP1_PROJEKT\kopia_kopii\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\Interpreter.c(219,56): warning C4029: declared formal parameter list different from definition
+C:\Users\adria\Desktop\KONIEC_PROJEKTU\ADRIAN_CIEŚLA_PP1_PROJEKT\kopia_kopii\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\Interpreter.c(230,32): warning C4133: 'function': incompatible types - from 'char [1]' to 'Context *'
+C:\Users\adria\Desktop\KONIEC_PROJEKTU\ADRIAN_CIEŚLA_PP1_PROJEKT\kopia_kopii\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\Interpreter.c(230,34): warning C4020: 'split': too many actual parameters
+C:\Users\adria\Desktop\KONIEC_PROJEKTU\ADRIAN_CIEŚLA_PP1_PROJEKT\kopia_kopii\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\Interpreter.c(394,31): warning C4133: 'function': incompatible types - from 'char [1]' to 'Context *'
+C:\Users\adria\Desktop\KONIEC_PROJEKTU\ADRIAN_CIEŚLA_PP1_PROJEKT\kopia_kopii\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\Interpreter.c(394,33): warning C4020: 'split': too many actual parameters
+C:\Users\adria\Desktop\KONIEC_PROJEKTU\ADRIAN_CIEŚLA_PP1_PROJEKT\kopia_kopii\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\Interpreter.c(414,32): warning C4133: 'function': incompatible types - from 'char [1]' to 'Context *'
+C:\Users\adria\Desktop\KONIEC_PROJEKTU\ADRIAN_CIEŚLA_PP1_PROJEKT\kopia_kopii\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\Interpreter.c(414,34): warning C4020: 'split': too many actual parameters
+C:\Users\adria\Desktop\KONIEC_PROJEKTU\ADRIAN_CIEŚLA_PP1_PROJEKT\kopia_kopii\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\Interpreter.c(443,31): warning C4133: 'function': incompatible types - from 'char [1]' to 'Context *'
+C:\Users\adria\Desktop\KONIEC_PROJEKTU\ADRIAN_CIEŚLA_PP1_PROJEKT\kopia_kopii\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\Interpreter.c(443,33): warning C4020: 'split': too many actual parameters
+C:\Users\adria\Desktop\KONIEC_PROJEKTU\ADRIAN_CIEŚLA_PP1_PROJEKT\kopia_kopii\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\Interpreter.c(472,32): warning C4133: 'function': incompatible types - from 'char [1]' to 'Context *'
+C:\Users\adria\Desktop\KONIEC_PROJEKTU\ADRIAN_CIEŚLA_PP1_PROJEKT\kopia_kopii\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\Interpreter.c(472,34): warning C4020: 'split': too many actual parameters
+C:\Users\adria\Desktop\KONIEC_PROJEKTU\ADRIAN_CIEŚLA_PP1_PROJEKT\kopia_kopii\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\Interpreter.c(492,20): warning C4047: '==': 'int' differs in levels of indirection from 'char [2]'
+C:\Users\adria\Desktop\KONIEC_PROJEKTU\ADRIAN_CIEŚLA_PP1_PROJEKT\kopia_kopii\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\Interpreter.c(496,19): warning C4133: 'function': incompatible types - from 'char [1]' to 'Context *'
+C:\Users\adria\Desktop\KONIEC_PROJEKTU\ADRIAN_CIEŚLA_PP1_PROJEKT\kopia_kopii\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\Interpreter.c(496,21): warning C4020: 'split': too many actual parameters
+  Main.c
+  ProgramCommander.c
+C:\Users\adria\Desktop\KONIEC_PROJEKTU\ADRIAN_CIEŚLA_PP1_PROJEKT\kopia_kopii\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\StringManagment.h(22,45): warning C4042: 'strings': has bad storage class
+  Simulator.c
+C:\Users\adria\Desktop\KONIEC_PROJEKTU\ADRIAN_CIEŚLA_PP1_PROJEKT\kopia_kopii\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\StringManagment.h(22,45): warning C4042: 'strings': has bad storage class
+C:\Users\adria\Desktop\KONIEC_PROJEKTU\ADRIAN_CIEŚLA_PP1_PROJEKT\kopia_kopii\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\Simulator.c(22,15): warning C4018: '<': signed/unsigned mismatch
+C:\Users\adria\Desktop\KONIEC_PROJEKTU\ADRIAN_CIEŚLA_PP1_PROJEKT\kopia_kopii\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\Simulator.c(71,23): warning C4133: 'function': incompatible types - from 'char [1]' to 'Context *'
+C:\Users\adria\Desktop\KONIEC_PROJEKTU\ADRIAN_CIEŚLA_PP1_PROJEKT\kopia_kopii\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\Simulator.c(71,25): warning C4020: 'split': too many actual parameters
+C:\Users\adria\Desktop\KONIEC_PROJEKTU\ADRIAN_CIEŚLA_PP1_PROJEKT\kopia_kopii\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\Simulator.c(138,105): warning C4133: 'function': incompatible types - from 'int *' to 'Context *'
+C:\Users\adria\Desktop\KONIEC_PROJEKTU\ADRIAN_CIEŚLA_PP1_PROJEKT\kopia_kopii\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\Simulator.c(138,107): warning C4020: 'performRegisterMemoryOperation': too many actual parameters
+C:\Users\adria\Desktop\KONIEC_PROJEKTU\ADRIAN_CIEŚLA_PP1_PROJEKT\kopia_kopii\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\Simulator.c(175,18): warning C4013: 'getch' undefined; assuming extern returning int
+C:\Users\adria\Desktop\KONIEC_PROJEKTU\ADRIAN_CIEŚLA_PP1_PROJEKT\kopia_kopii\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\Simulator.c(230,93): warning C4028: formal parameter 5 different from declaration
+C:\Users\adria\Desktop\KONIEC_PROJEKTU\ADRIAN_CIEŚLA_PP1_PROJEKT\kopia_kopii\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\Simulator.c(230,122): warning C4029: declared formal parameter list different from definition
+C:\Users\adria\Desktop\KONIEC_PROJEKTU\ADRIAN_CIEŚLA_PP1_PROJEKT\kopia_kopii\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\Simulator.c(282,70): warning C4047: 'function': 'Context *' differs in levels of indirection from 'int'
+C:\Users\adria\Desktop\KONIEC_PROJEKTU\ADRIAN_CIEŚLA_PP1_PROJEKT\kopia_kopii\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\Simulator.c(282,42): warning C4024: 'fillTyldesWithValue': different types for formal and actual parameter 2
+C:\Users\adria\Desktop\KONIEC_PROJEKTU\ADRIAN_CIEŚLA_PP1_PROJEKT\kopia_kopii\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\Simulator.c(282,72): warning C4020: 'fillTyldesWithValue': too many actual parameters
+  StringHandler.c
+C:\Users\adria\Desktop\KONIEC_PROJEKTU\ADRIAN_CIEŚLA_PP1_PROJEKT\kopia_kopii\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\StringManagment.h(22,45): warning C4042: 'strings': has bad storage class
+C:\Users\adria\Desktop\KONIEC_PROJEKTU\ADRIAN_CIEŚLA_PP1_PROJEKT\kopia_kopii\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\StringHandler.c(7,41): warning C4028: formal parameter 2 different from declaration
+C:\Users\adria\Desktop\KONIEC_PROJEKTU\ADRIAN_CIEŚLA_PP1_PROJEKT\kopia_kopii\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\StringHandler.c(7,66): warning C4029: declared formal parameter list different from definition
+C:\Users\adria\Desktop\KONIEC_PROJEKTU\ADRIAN_CIEŚLA_PP1_PROJEKT\kopia_kopii\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\StringHandler.c(72,11): warning C4047: 'return': 'int *' differs in levels of indirection from 'int'
+C:\Users\adria\Desktop\KONIEC_PROJEKTU\ADRIAN_CIEŚLA_PP1_PROJEKT\kopia_kopii\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\StringHandler.c(152,16): warning C4018: '<': signed/unsigned mismatch
+C:\Users\adria\Desktop\KONIEC_PROJEKTU\ADRIAN_CIEŚLA_PP1_PROJEKT\kopia_kopii\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\StringHandler.c(159,45): warning C4042: 'strings': has bad storage class
+C:\Users\adria\Desktop\KONIEC_PROJEKTU\ADRIAN_CIEŚLA_PP1_PROJEKT\kopia_kopii\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\StringHandler.c(161,16): warning C4018: '<': signed/unsigned mismatch
+C:\Users\adria\Desktop\KONIEC_PROJEKTU\ADRIAN_CIEŚLA_PP1_PROJEKT\kopia_kopii\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\StringHandler.c(173,15): warning C4018: '<': signed/unsigned mismatch
+C:\Users\adria\Desktop\KONIEC_PROJEKTU\ADRIAN_CIEŚLA_PP1_PROJEKT\kopia_kopii\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\StringHandler.c(186,15): warning C4018: '<': signed/unsigned mismatch
+C:\Users\adria\Desktop\KONIEC_PROJEKTU\ADRIAN_CIEŚLA_PP1_PROJEKT\kopia_kopii\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\StringHandler.c(221,49): warning C4028: formal parameter 3 different from declaration
+C:\Users\adria\Desktop\KONIEC_PROJEKTU\ADRIAN_CIEŚLA_PP1_PROJEKT\kopia_kopii\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\StringHandler.c(221,94): warning C4029: declared formal parameter list different from definition
   Generating code
-  29 of 31 functions (93.5%) were compiled, the rest were copied from previous compilation.
+C:\Users\adria\Desktop\KONIEC_PROJEKTU\ADRIAN_CIEŚLA_PP1_PROJEKT\kopia_kopii\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\Context.c(85): warning C4172: returning address of local variable or temporary: context
+C:\Users\adria\Desktop\KONIEC_PROJEKTU\ADRIAN_CIEŚLA_PP1_PROJEKT\kopia_kopii\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\FileHandler.c(144): warning C4172: returning address of local variable or temporary: ifn
+  51 of 53 functions (96.2%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
     0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
-  313207.vcxproj -> C:\Users\adria\Desktop\projekt\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\Release\313207.exe
+  313207.vcxproj -> C:\Users\adria\Desktop\KONIEC_PROJEKTU\ADRIAN_CIEŚLA_PP1_PROJEKT\kopia_kopii\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\Release\313207.exe

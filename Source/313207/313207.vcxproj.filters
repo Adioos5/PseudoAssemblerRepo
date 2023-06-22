@@ -13,15 +13,69 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\logic">
+      <UniqueIdentifier>{81d8d27c-12ba-4e5f-a317-e3ca721ced61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI">
+      <UniqueIdentifier>{bbdeba26-cba0-45af-8a91-cb51c85c3441}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\initializers">
+      <UniqueIdentifier>{2447c6a4-52b9-41ca-987b-401f88439ed5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\managment">
+      <UniqueIdentifier>{93aa6159-05f9-4254-8feb-14f62ccdb154}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\tools">
+      <UniqueIdentifier>{11040a58-d523-493f-a73a-354670d3f617}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Interpreter.c">
+      <Filter>Source Files\logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulator.c">
+      <Filter>Source Files\logic</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleManager.c">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="StringHandler.c">
+      <Filter>Source Files\logic</Filter>
+    </ClCompile>
+    <ClCompile Include="FileHandler.c">
+      <Filter>Source Files\logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Context.c">
+      <Filter>Source Files\initializers</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgramCommander.c">
+      <Filter>Source Files\initializers</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="test.txt">
-      <Filter>Source Files</Filter>
-    </Text>
+    <ClInclude Include="Definitions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileManagment.h">
+      <Filter>Header Files\managment</Filter>
+    </ClInclude>
+    <ClInclude Include="StringManagment.h">
+      <Filter>Header Files\managment</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleManagment.h">
+      <Filter>Header Files\managment</Filter>
+    </ClInclude>
+    <ClInclude Include="InitializingTools.h">
+      <Filter>Header Files\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="InterpreterTools.h">
+      <Filter>Header Files\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="SimulatorTools.h">
+      <Filter>Header Files\tools</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

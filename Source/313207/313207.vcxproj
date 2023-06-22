@@ -139,10 +139,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ConsoleManager.c" />
+    <ClCompile Include="FileHandler.c" />
+    <ClCompile Include="Context.c" />
+    <ClCompile Include="Interpreter.c" />
     <ClCompile Include="Main.c" />
+    <ClCompile Include="ProgramCommander.c" />
+    <ClCompile Include="Simulator.c" />
+    <ClCompile Include="StringHandler.c" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="test.txt" />
+    <ClInclude Include="ConsoleManagment.h" />
+    <ClInclude Include="FileManagment.h" />
+    <ClInclude Include="Definitions.h" />
+    <ClInclude Include="InitializingTools.h" />
+    <ClInclude Include="InterpreterTools.h" />
+    <ClInclude Include="SimulatorTools.h" />
+    <ClInclude Include="StringManagment.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

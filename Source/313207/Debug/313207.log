@@ -1,0 +1,11 @@
+﻿  FileHandler.c
+C:\Users\adria\Desktop\cipskpo\ADRIAN_CIEŚLA_PP1_PROJEKT\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\Functions.h(65,46): warning C4042: 'strings': has bad storage class
+C:\Users\adria\Desktop\cipskpo\ADRIAN_CIEŚLA_PP1_PROJEKT\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\FileHandler.c(40,13): warning C4047: 'function': 'char *' differs in levels of indirection from 'char [80][1050]'
+C:\Users\adria\Desktop\cipskpo\ADRIAN_CIEŚLA_PP1_PROJEKT\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\FileHandler.c(40,9): warning C4024: 'strcat': different types for formal and actual parameter 1
+C:\Users\adria\Desktop\cipskpo\ADRIAN_CIEŚLA_PP1_PROJEKT\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\FileHandler.c(41,26): warning C4047: 'function': 'const char *' differs in levels of indirection from 'char [80][1050]'
+C:\Users\adria\Desktop\cipskpo\ADRIAN_CIEŚLA_PP1_PROJEKT\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\FileHandler.c(41,22): warning C4024: 'strcpy': different types for formal and actual parameter 2
+  ProgramCommander.c
+C:\Users\adria\Desktop\cipskpo\ADRIAN_CIEŚLA_PP1_PROJEKT\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\Functions.h(65,46): warning C4042: 'strings': has bad storage class
+  Generating Code...
+C:\Users\adria\Desktop\cipskpo\ADRIAN_CIEŚLA_PP1_PROJEKT\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\FileHandler.c(75): warning C4172: returning address of local variable or temporary: ifn
+  313207.vcxproj -> C:\Users\adria\Desktop\cipskpo\ADRIAN_CIEŚLA_PP1_PROJEKT\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\Debug\313207.exe
