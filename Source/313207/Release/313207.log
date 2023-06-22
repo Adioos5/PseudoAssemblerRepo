@@ -1,0 +1,20 @@
+﻿  Main.c
+C:\Users\adria\Desktop\projekt\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\Main.c(76,46): warning C4042: 'strings': has bad storage class
+C:\Users\adria\Desktop\projekt\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\Main.c(91,7): warning C4101: 'errnum': unreferenced local variable
+C:\Users\adria\Desktop\projekt\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\Main.c(153,13): warning C4047: 'function': 'char *' differs in levels of indirection from 'char [80][1050]'
+C:\Users\adria\Desktop\projekt\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\Main.c(153,9): warning C4024: 'strcat': different types for formal and actual parameter 1
+C:\Users\adria\Desktop\projekt\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\Main.c(154,26): warning C4047: 'function': 'const char *' differs in levels of indirection from 'char [80][1050]'
+C:\Users\adria\Desktop\projekt\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\Main.c(154,22): warning C4024: 'strcpy': different types for formal and actual parameter 2
+C:\Users\adria\Desktop\projekt\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\Main.c(169,15): warning C4013: 'isspace' undefined; assuming extern returning int
+C:\Users\adria\Desktop\projekt\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\Main.c(230,16): warning C4018: '<': signed/unsigned mismatch
+C:\Users\adria\Desktop\projekt\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\Main.c(237,46): warning C4042: 'strings': has bad storage class
+C:\Users\adria\Desktop\projekt\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\Main.c(239,16): warning C4018: '<': signed/unsigned mismatch
+C:\Users\adria\Desktop\projekt\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\Main.c(251,15): warning C4018: '<': signed/unsigned mismatch
+C:\Users\adria\Desktop\projekt\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\Main.c(264,15): warning C4018: '<': signed/unsigned mismatch
+C:\Users\adria\Desktop\projekt\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\313207\Main.c(744,20): warning C4047: '==': 'int' differs in levels of indirection from 'char [2]'
+  Generating code
+  29 of 31 functions (93.5%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  313207.vcxproj -> C:\Users\adria\Desktop\projekt\ADRIAN_CIEŚLA_PP1_PROJEKT\Source\Release\313207.exe

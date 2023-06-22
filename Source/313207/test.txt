@@ -1,0 +1,9 @@
+DZIEWIEC      DC  INTEGER(9)
+PIEC          DC  INTEGER(5)
+DWA           DC  INTEGER(2)
+WYNIK	      DS INTEGER	
+
+			  L 1, DZIEWIEC
+			  S 1, PIEC
+			  S 1, DWA
+			  ST 1, WYNIK
